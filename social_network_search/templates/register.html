@@ -1,0 +1,12 @@
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    {{ render_field(form.job_history) }}
+    {{ render_field(form.company) }}
+    {{ render_field(form.email) }}
+    {{ render_field(form.city) }}
+    {{ render_field(form.name) }}
+    {{ render_field(form.country) }}
+  </dl>
+  <p><input type=submit value=Search>
+</form>

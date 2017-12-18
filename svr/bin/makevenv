@@ -1,0 +1,9 @@
+#
+# Construct virtual environment
+#
+virtualenv venv
+venv/bin/python -m pip install --upgrade ../social_network_search
+
+echo
+echo To run, enter "venv/bin/python run"
+echo

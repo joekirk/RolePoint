@@ -1,0 +1,11 @@
+#!venv/bin/python
+
+import sys
+
+def run(*args):
+    from social_network_search import app
+    app.run(*args)
+
+if __name__ == '__main__':
+    sys.path.insert(0, '../social_network_search')
+    run()
